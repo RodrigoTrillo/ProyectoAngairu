@@ -1,0 +1,39 @@
+html body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.img__nav {
+    display: grid;
+    width: 250px;
+    height: 150px;
+
+}
+
+header {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.main{
+    background: rgb(164,163,163);
+    background: linear-gradient(353deg, rgba(164,163,163,1) 0%, rgba(78,77,77,1) 37%, rgba(0,0,0,1) 100%);
+    color: #fff;
+}
+
+.center {
+    text-align: center;
+}
+
+@media screen and (min-width: 1024px) {
+    .center{
+        text-align: left;
+    }
+}
