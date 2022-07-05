@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <!-- logo nav -->
+        <div class="logo__header">
+            <a href="../index.html"><img src="../imagenes/barandgrill.jpg" alt=""></a>
+        </div>
+        <!--  barra de nav -->
+        <div class="nav__menu">
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn"><i class="menu__icon"><img
+                        src="../imagenes/png-transparent-hamburger-button-menu-brunch-menu-angle-material-share-icon.png"
+                        alt=""></i></label>
+            <ul class="list">
+                <li class="list__item"><a href="../index.html">Inicio</a></li>
+                <li class="list__item"><a href="./Nosotros.html">Nosotros</a></li>
+                <li class="list__item"><a href="#">Reserva</a></li>
+                <li class="list__item"><a href="./Carta.html">Carta</a></li>
+                <li class="list__item"><a href="./Galeria.html">Galeria</a></li>
+                <li class="list__item"><a href="./Contacto.html">Contacto</a></li>
+            </ul>
+        </div>
+    </header>
+    <section>
+        <div class="cont-reserva">
+            <div class="reserva-wrap">
+                <div class="reserva-form">
+                    <h3>Haz tu reserva</h3>
+                    <form action="">
+                        <p>
+                            <label>Nombre Completo</label>
+                            <input type="text" name="fullname" id="fullname">
+                        </p>
+                        <p>
+                            <label>Telefono</label>
+                            <input type="tel" name="phone">
+                        </p>
+                        <p>
+                            <label>Cantidad de comensales</label>
+                            <input type="number" name="number">
+                        </p>
+                        <p>
+                            <label for="">Selecciona el lugar</label>
+                            <select name="lugar" id="lugar">
+                                <option value="">Salon</option>
+                                <option value="">Patio</option>
+                                <option value="">Terraza</option>
+                            </select>
+                        </p>
+                        <p class="block">
+                            <label>Fecha y Hora</label>
+                            <input type="datetime-local" name="fechayhora">
+                        </p>
+                        <p class="block">
+                            <button>Enviar</button>
+                        </p>
+                    </form>
+                </div>
+        </div>
+    </section>
+    <footer>
+        <div class="cont__foot">
+            <div class="column1">
+                <h3>Mas informacion</h3>
+                <p>Esta compania se dedica a la producion y venta de productos alimenticios</p>
+            </div>
+            <div class="column2">
+                <h3>Redes sociales</h3>
+                <div class="row">
+                    <i class="fa-brands fa-facebook"></i>
+                    <a href="https://www.facebook.com" target="_blank"><label>Nuestro Facebook</label></a>
+                </div>
+                <div class="row">
+                    <i class="fa-brands fa-instagram"></i>
+                    <a href="https://www.instagram.com" target="_blank"><label>Nuestro Instagram</label></a>
+                </div>
+                <div class="row">
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <a href="#"><label>Nuestro Whatsapp</label></a>
+                </div>
+            </div>
+            <div class="column3">
+                <h3>Informacion de Contacto</h3>
+                <div class="row2">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <label>Direccion</label>
+                    <p>Felix Frias 234</p>
+                    <p>Bº Gral Paz</p>
+                </div>
+                <div class="row2">
+                    <i class="fa-solid fa-mobile-screen"></i>
+                    <label>telefono</label>
+                    <p>(+54)351-80347344</p>
+                </div>
+                <div class="row2">
+                    <i class="fa-solid fa-envelope-circle-check"></i>
+                    <label>email</label>
+                    <p>rollyt1232@gmail.com</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,51 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/565b566085.js" crossorigin="anonymous"></script>
     <title>Document</title>
 </head>
+
 <body>
-    <header>
-        <!-- logo nav -->
-        <div class="img__cont">
-            <img src="./imagenes/restaurant-logo-Graphics-12037886-1.jpg" alt="" class="img__nav">
-        </div>
-        <!--  barra de nav -->
-        <nav>
-            <ul class="list">
-                <li class="list__item"><a href="">Inicio</a></li>
-                <li class="list__item"><a href="">Nosotros</a></li>
-                <li class="list__item"><a href="">Reserva</a></li>
-                <li class="list__item"><a href="">Carta</a></li>
-                <li class="list__item"><a href="">Galeria</a></li>
-                <li class="list__item"><a href="">Contacto</a></li>
-            </ul>
-        </nav>
-    </header>
+    <div class="grid__cont">
+        <header class="header">
+            <!-- logo nav -->
+            <div class="logo__header">
+                <a href="#"><img src="./imagenes/barandgrill.jpg" alt=""></a>
+            </div>
+            <!--  barra de nav -->
+            <div class="nav__menu">
+                <input type="checkbox" id="check">
+                <label for="check" class="checkbtn"><i class="menu__icon"><img
+                            src="./imagenes/png-transparent-hamburger-button-menu-brunch-menu-angle-material-share-icon.png"
+                            alt=""></i></label>
+                <ul class="list">
+                    <li class="list__item"><a href="#">Inicio</a></li>
+                    <li class="list__item"><a href="./Paginas/Nosotros.html">Nosotros</a></li>
+                    <li class="list__item"><a href="./Paginas/Reservas.html">Reserva</a></li>
+                    <li class="list__item"><a href="./Paginas/Carta.html">Carta</a></li>
+                    <li class="list__item"><a href="./Paginas/Galeria.html">Galeria</a></li>
+                    <li class="list__item"><a href="./Paginas/Contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+        </header>
 
-    <section class="main">
-        <!-- Grid container -->
-        <div>
-        <!-- main container -->
-        <div>
-            <!-- titulo -->
-            <h1 class="title center">Restaurante Angairu</h1>
-            <!-- parrafo -->
-            <p class="description center">Angairu es un restaurante que desde hace años es una tradición. Es hoy máximo exponente de carnes a la parrilla y del auténtico asado argentino.</p>
-            <!-- Formulario -->
-            <div></div>
-        </div>
-        <!-- graphic -->
-        <div></div>
-        </div>
-        <ul>
-            <li></li>
-        </ul>
+        <section class="main">
+            <!-- main container -->
+            <div>
+                <!-- titulo -->
+                <h1 class="title center">Restaurante Angairu</h1>
+                <!-- parrafo -->
+                <p class="description center">Angairu es un restaurante que desde hace años es una tradición. Es hoy
+                    máximo exponente de carnes a la parrilla y del auténtico asado argentino.</p>
+                <img src="./imagenes/bar.jpg" alt="" class="main__img">
+                <!-- Formulario -->
+                <div>
+                    <form action="">
 
-    </section>
+                    </form>
+                </div>
+        </section>
+    </div>
+    <footer>
+        <div class="cont__foot">
+            <div class="column1">
+                <h3>Mas informacion</h3>
+                <p>Esta compania se dedica a la producion y venta de productos alimenticios</p>
+            </div>
+            <div class="column2">
+                <h3>Redes socilaes</h3>
+                <div class="row">
+                    <i class="fa-brands fa-facebook"></i>
+                    <a href="https://www.facebook.com" target="_blank"><label>Nuestro Facebook</label></a>
+                </div>
+                <div class="row">
+                    <i class="fa-brands fa-instagram"></i>
+                    <a href="https://www.instagram.com" target="_blank"><label>Nuestro Instagram</label></a>
+                </div>
+                <div class="row">
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <a href="#"><label>Nuestro Whatsapp</label></a>
+                </div>
+            </div>
+            <div class="column3">
+                <h3>Informacion de Contacto</h3>
+                <div class="row2">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <label>Direccion</label>
+                    <p>Felix Frias 234</p>
+                    <p>Bº Gral Paz</p>
+                </div>
+                <div class="row2">
+                    <i class="fa-solid fa-mobile-screen"></i>
+                    <label>telefono</label>
+                    <p>(+54)351-80347344</p>
+                </div>
+                <div class="row2">
+                    <i class="fa-solid fa-envelope-circle-check"></i>
+                    <label>email</label>
+                    <p>rollyt1232@gmail.com</p>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
+
 </html>
