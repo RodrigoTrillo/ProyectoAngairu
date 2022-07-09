@@ -1,0 +1,48 @@
+.nav-link{
+    color: azure;
+    font-size: 14px;
+    overflow: hidden;
+    transition: 1s;
+}
+
+.nav-link:hover {
+    
+    border-bottom: #4ad295 1px solid;
+    background: #4ad295;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #4ad295, 0 0 40px #4ad295, 0 0 80px #4ad295;
+    color: black;
+}
+
+.navbar-nav li:last-child{
+    background-color: #4ad295;
+    border: 2px solid #4ad295;
+    border-radius: .2rem;
+}
+
+.navbar-nav li:last-child:hover{
+    background: transparent;
+    border: 2px solid #4ad295;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    border-bottom: #4ad295 2px solid;
+    border-top: #4ad295 2px solid;
+}
+.main {
+    background-image: url(./imagenes/ladrillos1-2d4aa5b6290aeb196716165171606538-1024-1024.jpg);
+    background-repeat: no-repeat;
+    width: 90%;
+    display: flex;
+    margin: 0 auto;
+    border: 2px solid #4ad295;
+}
+
+.main__img {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 2rem;
+    display: block;
+    border: 2px solid #4ad295;
+}
