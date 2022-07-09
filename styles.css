@@ -717,6 +717,7 @@ body {
     max-width: 1170px;
     margin-left: auto;
     margin-right: auto;
+    animation: animate__zoomIn 2s;
 }
 
 .reserva-wrap {
@@ -782,3 +783,5 @@ body {
     transition: background-color is ease-out;
     outline: 0;
 }
+
+@keyframes animate__zoomIn{}
