@@ -79,11 +79,13 @@ body {
 
 .logo__header img {
     width: 100px;
+    transition: 2s;
 }
 
 .logo__header:hover {
     border: #4ad295 2px solid;
     border-radius: 4px;
+    
 }
 
 .header {
@@ -103,9 +105,20 @@ body {
     margin-right: 1.5rem;
 }
 
+.nav__menu a{
+    padding: .5px 10px;
+    overflow: hidden;
+    transition: 1s;
+}
+
 .nav__menu a:hover {
-    color: #4ad295;
+    /* color: #4ad295; */
+    color: #000;
     border-bottom: #4ad295 1px solid;
+    background: #4ad295;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #4ad295, 0 0 40px #4ad295, 0 0 80px #4ad295;
+    /* transition-delay: .5s; */
 }
 
 .nav__menu li:last-child {
