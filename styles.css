@@ -80,6 +80,7 @@ body {
 .logo__header img {
     width: 100px;
     transition: 2s;
+
 }
 
 .logo__header:hover {
@@ -420,6 +421,7 @@ body {
     }
 
     .column1 h3 {
+        margin-top: 10px;
         margin-right: 10px;
         font-size: 12px;
         width: fit-content;
@@ -444,12 +446,16 @@ body {
         display: flex;
     }
 
+    .column3 {
+        margin-left: 20px;
+    }
+
     .column3 h3 {
-        padding: 10px;
-        margin-top: 1rem;
+        /* padding: 10px; */
+       /*  margin-top: 1rem; */
         font-size: 12px;
-        width: fit-content;
-        border-bottom: 1px solid #4ad295;
+        /* width: fit-content;
+        border-bottom: 1px solid #4ad295; */
     }
 
     .row2 {
@@ -458,7 +464,7 @@ body {
     }
 
     .row2 p {
-        margin-left: 1.5rem;
+        margin-left: .5rem;
         font-size: 8px;
     }
 }
@@ -473,6 +479,7 @@ body {
     }
 
     .column1 h3 {
+        margin-top: 10px;
         margin-right: 10px;
         font-size: 12px;
         width: fit-content;
@@ -497,12 +504,16 @@ body {
         display: flex;
     }
 
+    .column3 {
+        margin-left: 20px;
+    }
+
     .column3 h3 {
-        padding: 10px;
-        margin-top: 1rem;
+        /* padding: 10px; */
+       /*  margin-top: 1rem; */
         font-size: 12px;
-        width: fit-content;
-        border-bottom: 1px solid #4ad295;
+        /* width: fit-content;
+        border-bottom: 1px solid #4ad295; */
     }
 
     .row2 {
@@ -511,7 +522,7 @@ body {
     }
 
     .row2 p {
-        margin-left: 1.5rem;
+        margin-left: .5rem;
         font-size: 8px;
     }
 }
@@ -526,6 +537,7 @@ body {
     }
 
     .column1 h3 {
+        margin-top: 10px;
         margin-right: 10px;
         font-size: 12px;
         width: fit-content;
@@ -550,12 +562,16 @@ body {
         display: flex;
     }
 
+    .column3 {
+        margin-left: 20px;
+    }
+
     .column3 h3 {
-        padding: 10px;
-        margin-top: 1rem;
+        /* padding: 10px; */
+       /*  margin-top: 1rem; */
         font-size: 12px;
-        width: fit-content;
-        border-bottom: 1px solid #4ad295;
+        /* width: fit-content;
+        border-bottom: 1px solid #4ad295; */
     }
 
     .row2 {
@@ -564,7 +580,7 @@ body {
     }
 
     .row2 p {
-        margin-left: 1.5rem;
+        margin-left: .5rem;
         font-size: 8px;
     }
 }
