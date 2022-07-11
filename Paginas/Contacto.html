@@ -5,125 +5,123 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../styles.css">
-    <!-- font awesome -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+     integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="../boostrap.css">
     <script src="https://kit.fontawesome.com/565b566085.js" crossorigin="anonymous"></script>
     <title>Document</title>
-    <!-- animated css -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-    <!-- font google -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <header class="header">
-        <!-- logo nav -->
-        <div class="logo__header">
-            <a href="../index.html"><img src="../imagenes/barandgrill.jpg" alt=""></a>
+    <div class="grid__cont bg-dark">
+        <header class="header">
+            <nav class="navbar navbar-expand-lg bg-dark bg-gradient">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="../index.html">Angairu</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="../index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./Nosotros.html">Nosotros</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./Reservas.html">Reserva</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./Carta.html">Carta</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Galeria</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./Contacto.html">Contacto</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <div>
+            <h1 class="text-center fw-bold text-cont">Contactanos</h1>
         </div>
-        <!--  barra de nav -->
-        <div class="nav__menu">
-            <input type="checkbox" id="check">
-            <label for="check" class="checkbtn"><i class="menu__icon"><img
-                        src="../imagenes/png-transparent-hamburger-button-menu-brunch-menu-angle-material-share-icon.png"
-                        alt=""></i></label>
-            <ul class="list">
-                <li class="list__item"><a href="../index.html">Inicio</a></li>
-                <li class="list__item"><a href="./Nosotros.html">Nosotros</a></li>
-                <li class="list__item"><a href="./Reservas.html">Reserva</a></li>
-                <li class="list__item"><a href="./Carta.html">Carta</a></li>
-                <li class="list__item"><a href="./Galeria.html">Galeria</a></li>
-                <li class="list__item"><a href="#">Contacto</a></li>
-            </ul>
-        </div>
-    </header>
-    <div class="content animate__animated animate__backInUp">
-        <h1 class="logo">Contactanos</h1>
-        <div class="contact__wrap">
-            <div class="contact__form">
-                <h3>Contactanos</h3>
-                <form action="">
-                    <p>
-                        <label>Nombre Completo</label>
-                        <input type="text" name="fullname" id="fullname">
-                    </p>
-                    <p>
-                        <label>Direccion de email</label>
-                        <input type="email" name="emal">
-                    </p>
-                    <p>
-                        <label>Telefono</label>
-                        <input type="tel" name="phone">
-                    </p>
-                    <p>
-                        <label>Asunto</label>
-                        <input type="text" name="affair">
-                    </p>
-                    <p class="block">
-                        <label>Mensaje</label>
-                        <textarea name="message" rows="3"></textarea>
-                    </p>
-                    <p class="block">
-                        <button>Enviar</button>
-                    </p>
-                </form>
+            <div class="container">
+                <div class="row">
+                    <div class="mb-4 col-6 cont-input">
+                        <label for="nombre" class="form-label">Nombre Completo</label>
+                        <input type="text" class="form-control" id="nombre" placeholder="Nombre Completo">
+                      </div>
+                      <div class="mb-4 col-6 cont-input">
+                        <label for="exampleFormControlInput1" class="form-label">Direcion de email</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Direcion de email">
+                      </div>
+                      <div class="mb-4 col-6 cont-input">
+                        <label for="Telefono" class="form-label">Telefono</label>
+                        <input type="number" class="form-control" id="Telefono" placeholder="Telefono">
+                      </div>
+                      <div class="mb-4 col-6 cont-input">
+                        <label for="Asunto" class="form-label">Asunto</label>
+                        <input type="email" class="form-control" id="Asunto" placeholder="Asunto">
+                      </div>
+                      <div class="mb-3 col-12 cont-input">
+                        <label for="exampleFormControlTextarea1" class="form-label">Deja tu mensaje</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Deja tu mensaje"></textarea>
+                      </div>
+                      <div class="d-grid gap-2 col-6 mx-auto">
+                        <input type="button" value="Enviar" class="btn mb-3">
+                      </div>
+                </div>
             </div>
-            <div class="contact__info">
-                <h4>More info</h4>
-                <ul>
-                    <li><i class="fa-solid fa-location-dot"></i> Felix Frias 234</li>
-                    <li><i class="fa-solid fa-mobile-screen"></i>(+54)351-8034744</li>
-                    <li><i class="fa-solid fa-envelope-circle-check"></i>Contact@email.com</li>
-                </ul>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi eos consequatur veniam esse, </p>
-                <p>Lorem ipsum dolor sit amet.</p>
+        <!-- footer -->
+        <div class="container-fluid border-top">
+            <div class="row p-5 bg-dark text-white ">
+                <div class=" col-xs-12 col-md-6 col-lg-3">
+                    <p class="h3">Mas informacion</p>
+                    <p class="text-secondary">Esta compania se dedica a la producion y venta de productos alimenticios</p>
+                </div>
+                <div class=" col-xs-12 col-md-6 col-lg-3">
+                    <p class="h5 mb-3">Redes socilaes</p>
+                    <div class="mb-2">
+                        <a href="https://www.instagram.com" target="_blank" class="text-decoration-none text-secondary">Instagram</a>
+                    </div>
+                    <div class="mb-2">
+                        <a href="https://www.facebook.com" target="_blank" class="text-decoration-none text-secondary">Facebook</a>
+                    </div>
+                    <div class="mb-2">
+                        <a href="" class="text-decoration-none text-secondary">Whatsapp</a>
+                    </div>
+                </div>
+                <div class=" col-xs-12 col-md-6 col-lg-3">
+                    <p class="h5">Informacion de Contacto</p>
+                    <p>Direccion</p>
+                    <p class="text-secondary">Felix Frias 234</p>
+                    <p class="text-secondary">Bº Gral Paz</p>
+                    <span></span>
+                    <p>Telefono</p>
+                    <p class="text-secondary">(+54)351-8034733</p>
+                    <span></span>
+                    <p>Email</p>
+                    <p class="text-secondary">rollyt1232@gmail.com</p>
+                </div>
+                <div class=" col-xs-12 col-md-6 col-lg-3">
+                    <p class="h5">Links</p>
+                </div>
             </div>
-        </div>
     </div>
-    <footer>
-        <div class="cont__foot">
-            <div class="column1">
-                <h3>Mas informacion</h3>
-                <p>Esta compania se dedica a la producion y venta de productos alimenticios</p>
-            </div>
-            <div class="column2">
-                <h3>Redes socilaes</h3>
-                <div class="row">
-                    <i class="fa-brands fa-facebook"></i>
-                    <a href="https://www.facebook.com" target="_blank"><label>Nuestro Facebook</label></a>
-                </div>
-                <div class="row">
-                    <i class="fa-brands fa-instagram"></i>
-                    <a href="https://www.instagram.com" target="_blank"><label>Nuestro Instagram</label></a>
-                </div>
-                <div class="row">
-                    <i class="fa-brands fa-whatsapp"></i>
-                    <a href="#"><label>Nuestro Whatsapp</label></a>
-                </div>
-            </div>
-            <div class="column3">
-                <h3>Informacion de Contacto</h3>
-                <div class="row2">
-                    <i class="fa-solid fa-location-dot"></i>
-                    <label>Direccion</label>
-                    <p>Felix Frias 234</p>
-                    <p>Bº Gral Paz</p>
-                </div>
-                <div class="row2">
-                    <i class="fa-solid fa-mobile-screen"></i>
-                    <label>telefono</label>
-                    <p>(+54)351-80347344</p>
-                </div>
-                <div class="row2">
-                    <i class="fa-solid fa-envelope-circle-check"></i>
-                    <label>email</label>
-                    <p>rollyt1232@gmail.com</p>
-                </div>
-            </div>
-        </div>
-    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+        integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+        integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

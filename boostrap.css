@@ -46,3 +46,37 @@
     display: block;
     border: 2px solid #4ad295;
 }
+
+.img-g img{
+    border: #4ad295 1px solid;
+    box-shadow: 0 0 10px #4ad295/* , 0 0 40px #4ad295, 0 0 80px #4ad295 */;
+}
+
+.card{
+    border: #4ad295 1px solid;
+}
+
+.btn {
+    background: #4ad295;
+    transition: 1s;
+    color: #fff;
+    
+}
+.btn:hover {
+    color: #fff;
+}
+
+.card-body h5{
+    border-bottom: #4ad295 1px solid;
+    width: fit-content;
+}
+
+.text-cont{
+    color: #4ad295;
+}
+.cont-input input{ 
+    border: #4ad295 2px solid;
+}
+.cont-input textarea{
+    border: #4ad295 2px solid;
+}
