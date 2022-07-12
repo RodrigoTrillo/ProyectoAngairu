@@ -55,7 +55,7 @@
 
 .img-g img{
     border: #4ad295 1px solid;
-    box-shadow: 0 0 10px #4ad295/* , 0 0 40px #4ad295, 0 0 80px #4ad295 */;
+    box-shadow: 0 0 10px #4ad295;
 }
 
 .card{
