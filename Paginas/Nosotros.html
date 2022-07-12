@@ -1,89 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../styles.css">
-    <!-- font google -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="../boostrap.css">
+    <script src="https://kit.fontawesome.com/565b566085.js" crossorigin="anonymous"></script>
     <title>Document</title>
 </head>
+
 <body>
-    <header class="header">
-        <!-- logo nav -->
-        <div class="logo__header">
-            <a href="../index.html"><img src="../imagenes/barandgrill.jpg" alt=""></a>
+    <div class="grid__cont bg-dark">
+        <header class="header">
+            <nav class="navbar navbar-expand-lg bg-dark bg-gradient">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="../index.html">Angairu</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="../index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Nosotros</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./Reservas.html">Reserva</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./Carta.html">Carta</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./Galeria.html">Galeria</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./Contacto.html">Contacto</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <div class="text-white text-center m-5">
+            <p>En Angairu ponemos a disposición de nuestros clientes un amplio abanico de servicios.</p>
+            <p>Nuestro restaurante les ofrece una variada carta de platos recién elaborados con materias primas de
+                calidad, menú diario, abundantes desayunos, meriendas, y cenas para todos los gustos. Y para
+                celebraciones, les proponemos una completa relación de menús.</p>
+            <p>Un agradable lugar donde tomar un tentempié a cualquier hora, sin problemas de aparcamiento, ya que
+                disponemos de un amplio parking para todo tipo de vehículos,</p>
+            <p>Los profesionales que trabajan con nosotros le brindarán toda la información que necesite, además de una
+                exquisita atención.</p>
+            <p>Venga a conocernos.</p>
         </div>
-        <!--  barra de nav -->
-        <div class="nav__menu">
-            <input type="checkbox" id="check">
-            <label for="check" class="checkbtn"><i class="menu__icon"><img
-                        src="../imagenes/png-transparent-hamburger-button-menu-brunch-menu-angle-material-share-icon.png"
-                        alt=""></i></label>
-            <ul class="list">
-                <li class="list__item"><a href="../index.html">Inicio</a></li>
-                <li class="list__item"><a href="#">Nosotros</a></li>
-                <li class="list__item"><a href="./Reservas.html">Reserva</a></li>
-                <li class="list__item"><a href="./Carta.html">Carta</a></li>
-                <li class="list__item"><a href="./Galeria.html">Galeria</a></li>
-                <li class="list__item"><a href="./Contacto.html">Contacto</a></li>
-            </ul>
-        </div>
-    </header>
-    <section>
-        <div class="nos">
-            <p class="nos__parraf">En Angairu ponemos a disposición de nuestros clientes un amplio abanico de servicios.</p>
-            <p class="nos__parraf">Nuestro restaurante les ofrece una variada carta de platos recién elaborados con materias primas de calidad, menú diario, abundantes desayunos, meriendas, y cenas para todos los gustos. Y para celebraciones, les proponemos una completa relación de menús.</p>
-            <p class="nos__parraf">Un agradable lugar donde tomar un tentempié a cualquier hora, sin problemas de aparcamiento, ya que disponemos de un amplio parking para todo tipo de vehículos,</p>
-            <p class="nos__parraf">Los profesionales que trabajan con nosotros le brindarán toda la información que necesite, además de una exquisita atención.</p>
-            <p class="nos__parraf">Venga a conocernos.</p>
-            
-        </div>
-    </section>
-    <footer>
-        <div class="cont__foot">
-            <div class="column1">
-                <h3>Mas informacion</h3>
-                <p>Esta compania se dedica a la producion y venta de productos alimenticios</p>
+        <!-- mapa -->
+        <!-- boton -->
+        <button class="btn d-grid mx-auto mb-3" type="button" data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Ver Ubicacion</button>
+        <div class="offcanvas offcanvas-end bg-dark" tabindex="-1" id="offcanvasRight"
+            aria-labelledby="offcanvasRightLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title text-white" id="offcanvasRightLabel">Ubicacion</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
-            <div class="column2">
-                <h3>Redes socilaes</h3>
-                <div class="row">
-                    <i class="fa-brands fa-facebook"></i>
-                    <a href="https://www.facebook.com" target="_blank"><label>Nuestro Facebook</label></a>
-                </div>
-                <div class="row">
-                    <i class="fa-brands fa-instagram"></i>
-                    <a href="https://www.instagram.com" target="_blank"><label>Nuestro Instagram</label></a>
-                </div>
-                <div class="row">
-                    <i class="fa-brands fa-whatsapp"></i>
-                    <a href="#"><label>Nuestro Whatsapp</label></a>
-                </div>
-            </div>
-            <div class="column3">
-                <h3>Informacion de Contacto</h3>
-                <div class="row2">
-                    <i class="fa-solid fa-location-dot"></i>
-                    <label>Direccion</label>
-                    <p>Felix Frias 234</p>
-                    <p>Bº Gral Paz</p>
-                </div>
-                <div class="row2">
-                    <i class="fa-solid fa-mobile-screen"></i>
-                    <label>telefono</label>
-                    <p>(+54)351-80347344</p>
-                </div>
-                <div class="row2">
-                    <i class="fa-solid fa-envelope-circle-check"></i>
-                    <label>email</label>
-                    <p>rollyt1232@gmail.com</p>
-                </div>
+            <div class="offcanvas-body">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3404.9958651593965!2d-64.17178398512351!3d-31.41424000329096!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432a2a18bebf61b%3A0xf40a5bb3c250029!2zRsOpbGl4IEZyw61hcyAyMzQsIFg1MDAzQUhGIEPDs3Jkb2Jh!5e0!3m2!1ses-419!2sar!4v1657574207313!5m2!1ses-419!2sar"
+                    width="370" height="450" style="border:#4ad295 2px solid;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>
-    </footer>
+        <!-- footer -->
+        <div class="container-fluid border-top">
+            <div class="row p-5 bg-dark text-white ">
+                <div class=" col-xs-12 col-md-6 col-lg-3">
+                    <p class="h3">Mas informacion</p>
+                    <p class="text-secondary">Esta compania se dedica a la producion y venta de productos alimenticios
+                    </p>
+                </div>
+                <div class=" col-xs-12 col-md-6 col-lg-3">
+                    <p class="h5 mb-3">Redes socilaes</p>
+                    <div class="mb-2">
+                        <a href="https://www.instagram.com" target="_blank"
+                            class="text-decoration-none text-secondary">Instagram</a>
+                    </div>
+                    <div class="mb-2">
+                        <a href="https://www.facebook.com" target="_blank"
+                            class="text-decoration-none text-secondary">Facebook</a>
+                    </div>
+                    <div class="mb-2">
+                        <a href="" class="text-decoration-none text-secondary">Whatsapp</a>
+                    </div>
+                </div>
+                <div class=" col-xs-12 col-md-6 col-lg-3">
+                    <p class="h5">Informacion de Contacto</p>
+                    <p>Direccion</p>
+                    <p class="text-secondary">Felix Frias 234</p>
+                    <p class="text-secondary">Bº Gral Paz</p>
+                    <span></span>
+                    <p>Telefono</p>
+                    <p class="text-secondary">(+54)351-8034733</p>
+                    <span></span>
+                    <p>Email</p>
+                    <p class="text-secondary">rollyt1232@gmail.com</p>
+                </div>
+                <div class=" col-xs-12 col-md-6 col-lg-3">
+                    <p class="h5">Links</p>
+                </div>
+            </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+            integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+            integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+            crossorigin="anonymous"></script>
 </body>
+
 </html>

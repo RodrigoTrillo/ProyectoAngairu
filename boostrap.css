@@ -5,6 +5,10 @@
     transition: 1s;
 }
 
+.navbar-collapse{
+    flex-grow: initial;
+}
+
 .nav-link:hover {
     
     border-bottom: #4ad295 1px solid;
@@ -26,6 +30,7 @@
 }
 
 .navbar-brand {
+    color: #4ad295;
     font-weight: bold;
     border-bottom: #4ad295 2px solid;
     border-top: #4ad295 2px solid;
@@ -37,6 +42,7 @@
     display: flex;
     margin: 0 auto;
     border: 2px solid #4ad295;
+    background-repeat: repeat;
 }
 
 .main__img {
@@ -78,5 +84,24 @@
     border: #4ad295 2px solid;
 }
 .cont-input textarea{
+    border: #4ad295 2px solid;
+}
+
+.offcanvas-title{
+    border-bottom: #4ad295 1px solid;
+}
+
+.form-r{
+    border: #4ad295 1px solid;
+    width: 70%;
+    display: flex;
+    margin: 0 auto;
+}
+
+.form-r input{
+    border: #4ad295 2px solid;
+}
+
+.form-r select{
     border: #4ad295 2px solid;
 }
