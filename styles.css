@@ -1,3 +1,9 @@
+.titulo{
+    background-color: #4ad2955c;
+}
+.parrafo{
+    background-color: #4ad2955c;
+}
 .nav-link{
     color: azure;
     font-size: 14px;
@@ -40,7 +46,7 @@
     background-repeat: no-repeat;
     width: 90%;
     display: flex;
-    margin: 0 auto;
+    margin: 0 auto 60px;
     border: 2px solid #4ad295;
     background-repeat: repeat;
 }
@@ -95,7 +101,8 @@
     border: #4ad295 1px solid;
     width: 70%;
     display: flex;
-    margin: 0 auto;
+    margin: 0 auto 60px;
+    
 }
 
 .form-r input{
@@ -104,4 +111,12 @@
 
 .form-r select{
     border: #4ad295 2px solid;
+}
+.active{
+    border-bottom: #1eff00 1px solid;
+    border-top: #1eff00 1px solid;
+}
+
+.color-2{
+    color: #4ad295;
 }

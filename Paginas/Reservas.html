@@ -6,13 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-     integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="../styles.css">
     <script src="https://kit.fontawesome.com/565b566085.js" crossorigin="anonymous"></script>
     <title>Document</title>
 </head>
 
-<body>
+<body class="bg-dark">
     <div class="grid__cont bg-dark">
         <header class="header">
             <nav class="navbar navbar-expand-lg bg-dark bg-gradient">
@@ -31,7 +31,7 @@
                                 <a class="nav-link" href="./Nosotros.html">Nosotros</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Reserva</a>
+                                <a class="nav-link active" href="#">Reserva</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="./Carta.html">Carta</a>
@@ -47,79 +47,84 @@
                 </div>
             </nav>
         </header>
+    </div>
+    <div class="grid__cont bg-dark">
         <div>
             <h1 class="text-center fw-bold text-cont">Reservas</h1>
         </div>
         <form class="row g-3 form-r rounded-top">
             <div class="col-md-6">
-              <label for="nombre" class="form-label text-white">Nombre Completo</label>
-              <input type="text" class="form-control" id="nombre">
+                <label for="nombre" class="form-label text-white">Nombre Completo</label>
+                <input type="text" class="form-control" id="nombre">
             </div>
             <div class="col-md-6">
-              <label for="comensales" class="form-label text-white">Cantidad de comensales</label>
-              <input type="number" class="form-control" id="comensales">
+                <label for="comensales" class="form-label text-white">Cantidad de comensales</label>
+                <input type="number" class="form-control" id="comensales">
             </div>
             <div class="col-md-6">
-              <label for="inputTel" class="form-label text-white">Numero de telefono</label>
-              <input type="text" class="form-control" id="inputTel">
+                <label for="inputTel" class="form-label text-white">Numero de telefono</label>
+                <input type="text" class="form-control" id="inputTel">
             </div>
             <div class="col-md-4">
-              <label for="inputLugar" class="form-label text-white">Lugar</label>
-              <select id="inputLugar" class="form-select">
-                <option selected>Selecciona el lugar</option>
-                <option>Salon</option>
-                <option>Terraza</option>
-                <option>Patio</option>
-              </select>
+                <label for="inputLugar" class="form-label text-white">Lugar</label>
+                <select id="inputLugar" class="form-select">
+                    <option selected>Selecciona el lugar</option>
+                    <option>Salon</option>
+                    <option>Terraza</option>
+                    <option>Patio</option>
+                </select>
             </div>
             <div class="col-3 d-grid mx-auto mb-3">
-              <button type="submit" class="btn">Sign in</button>
+                <button type="submit" class="btn">Enviar</button>
             </div>
-          </form>
-        <!-- footer -->
-        <div class="container-fluid border-top">
-            <div class="row p-5 bg-dark text-white ">
-                <div class=" col-xs-12 col-md-6 col-lg-3">
-                    <p class="h3">Mas informacion</p>
-                    <p class="text-secondary">Esta compania se dedica a la producion y venta de productos alimenticios</p>
+        </form>
+    </div>
+    <!-- footer -->
+    <div class="container-fluid border-top">
+        <div class="row p-5 bg-dark text-white ">
+            <div class=" col-xs-12 col-md-6 col-lg-3">
+                <p class="h3">Mas informacion</p>
+                <p class="color-2">Esta compania se dedica a la producion y venta de productos alimenticios</p>
+            </div>
+            <div class=" col-xs-12 col-md-6 col-lg-3">
+                <p class="h5 mb-3">Redes sociales</p>
+                <div class="mb-2">
+                    <i class="bi bi-instagram"></i>
+                    <a href="https://www.instagram.com" target="_blank"
+                        class="text-decoration-none mx-1 color-2">Instagram</a>
                 </div>
-                <div class=" col-xs-12 col-md-6 col-lg-3">
-                    <p class="h5 mb-3">Redes socilaes</p>
-                    <div class="mb-2">
-                        <a href="https://www.instagram.com" target="_blank" class="text-decoration-none text-secondary">Instagram</a>
-                    </div>
-                    <div class="mb-2">
-                        <a href="https://www.facebook.com" target="_blank" class="text-decoration-none text-secondary">Facebook</a>
-                    </div>
-                    <div class="mb-2">
-                        <a href="" class="text-decoration-none text-secondary">Whatsapp</a>
-                    </div>
+                <div class="mb-2">
+                    <i class="bi bi-facebook"></i>
+                    <a href="https://www.facebook.com" target="_blank"
+                        class="text-decoration-none mx-1 color-2">Facebook</a>
                 </div>
-                <div class=" col-xs-12 col-md-6 col-lg-3">
-                    <p class="h5">Informacion de Contacto</p>
-                    <p>Direccion</p>
-                    <p class="text-secondary">Felix Frias 234</p>
-                    <p class="text-secondary">Bº Gral Paz</p>
-                    <span></span>
-                    <p>Telefono</p>
-                    <p class="text-secondary">(+54)351-8034733</p>
-                    <span></span>
-                    <p>Email</p>
-                    <p class="text-secondary">rollyt1232@gmail.com</p>
-                </div>
-                <div class=" col-xs-12 col-md-6 col-lg-3">
-                    <p class="h5">Links</p>
+                <div class="mb-2">
+                    <i class="bi bi-whatsapp"></i>
+                    <a href="" class="text-decoration-none mx-1 color-2">Whatsapp</a>
                 </div>
             </div>
+            <div class=" col-xs-12 col-md-6 col-lg-3">
+                <p class="h5">Informacion de Contacto</p>
+                <p>Direccion</p>
+                <p class="color-2">Felix Frias 234</p>
+                <p class="color-2">Bº Gral Paz</p>
+                <span></span>
+                <p>Telefono</p>
+                <p class="color-2">(+54)351-8034733</p>
+                <span></span>
+                <p>Email</p>
+                <p class="color-2">rollyt1232@gmail.com</p>
+            </div>
+            <div class=" col-xs-12 col-md-6 col-lg-3">
+                <p class="h5">Links</p>
+            </div>
+        </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
         crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
         integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
-        integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
         crossorigin="anonymous"></script>
 </body>
 
