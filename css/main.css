@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+/*  nav bar */
+.navbar .container-fluid .navbar-brand {
+  color: #4ad295;
+  border-top: #4ad295 2px solid;
+  border-bottom: #4ad295 2px solid; }
+
+.navbar .container-fluid .navbar-toggler {
+  background-color: #4ad295; }
+
+.navbar .container-fluid .collapse {
+  flex-grow: initial; }
+  .navbar .container-fluid .collapse .navbar-nav li:last-child {
+    background-color: #4ad295;
+    border: 2px solid #4ad295;
+    border-radius: 4px; }
+  .navbar .container-fluid .collapse .navbar-nav .nav-link {
+    color: #fff;
+    /* border: $border; */
+    border-radius: 4px;
+    font-size: 14px;
+    /* margin: 10px; */
+    transition: 1s; }
+    .navbar .container-fluid .collapse .navbar-nav .nav-link:hover {
+      border-bottom: #1eff00;
+      background: #4ad295;
+      border-radius: 4px;
+      box-shadow: 0 0 10px #4ad295, 0 0 40px #4ad295, 0 0 80px #4ad295;
+      color: #000; }
+
+/* main */
+.main {
+  background-image: url(../../imagenes/ladrillos1-2d4aa5b6290aeb196716165171606538-1024-1024.jpg);
+  width: 90%;
+  display: flex;
+  margin: 0 auto 60px;
+  border: 2px solid #4ad295;
+  background-repeat: repeat; }
+
+.main__img {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 2rem;
+  display: block;
+  border: 2px solid #4ad295; }
+
+.img-g img {
+  border: 2px solid #4ad295;
+  box-shadow: 0 0 10px #4ad295; }
+
+.titulo {
+  background-color: #4ad2955c; }
+
+.parrafo {
+  background-color: #4ad2955c; }
+
+/* active */
+.active {
+  border-bottom: 1px solid #1eff00;
+  border-top: 1px solid #1eff00; }
+
+/* footer */
+.color-2 {
+  color: #4ad295; }
+
+/* botones generales */
+.btn {
+  background-color: #4ad295;
+  transition: 1s; }
+  .btn:hover {
+    background-color: #4ad295;
+    box-shadow: 0 0 10px #4ad295, 0 0 40px #4ad295, 0 0 80px #4ad295;
+    color: #000; }
+
+.btn-close {
+  background-color: #4ad295; }
+
+.form-r {
+  border: 2px solid #4ad295;
+  width: 70%;
+  display: flex;
+  margin: 0 auto;
+  margin-bottom: 60px; }
+  .form-r input {
+    border: 2px solid #4ad295; }
+  .form-r select {
+    border: 2px solid #4ad295; }
+
+/* .form-r{
+    border: #4ad295 1px solid;
+    width: 70%;
+    display: flex;
+    margin: 0 auto 60px;
+    
+}
+
+.form-r input{
+    border: #4ad295 2px solid;
+}
+
+.form-r select{
+    border: #4ad295 2px solid;
+} */
+.card {
+  border: 2px solid #4ad295; }
+  .card .card-body h5 {
+    border-bottom: 2px solid #4ad295;
+    width: fit-content; }

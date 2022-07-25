@@ -1,0 +1,9 @@
+.card{
+    border: $border;
+    .card-body{
+        h5{
+            border-bottom: $border;
+            width: fit-content;
+        }
+    }
+}

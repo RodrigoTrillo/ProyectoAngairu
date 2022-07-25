@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*  nav bar */
+
+.navbar {
+    .container-fluid {
+        .navbar-brand {
+            color: map-get($colores, "color-primary");
+            border-top: map-get($colores, "color-primary") 2px solid;
+            border-bottom: map-get($colores, "color-primary") 2px solid;
+        }
+
+        .navbar-toggler {
+            background-color: map-get($colores, "color-primary");
+        }
+
+        .collapse {
+            flex-grow: initial;
+
+            .navbar-nav {
+                li:last-child {
+                    background-color: map-get($colores, "color-primary");
+                    border: $border;
+                    border-radius: $b-radius;
+                }
+
+                .nav-link {
+                    color: map-get($colores, "color-link");
+                    /* border: $border; */
+                    border-radius: $b-radius;
+                    font-size: 14px;
+                    /* margin: 10px; */
+                    transition: 1s;
+
+                    &:hover {
+                        border-bottom: map-get($colores, "color-secondary");
+                        background: map-get($colores, "color-primary");
+                        border-radius: $b-radius;
+                        box-shadow: 0 0 10px #4ad295, 0 0 40px #4ad295, 0 0 80px #4ad295;
+                        color: map-get($colores, "color-hover");
+                    }
+
+                }
+
+            }
+        }
+    }
+}
+
+/* main */
+.main {
+    background-image: url(../../imagenes/ladrillos1-2d4aa5b6290aeb196716165171606538-1024-1024.jpg);
+    width: 90%;
+    display: flex;
+    margin: 0 auto 60px;
+    border: 2px solid #4ad295;
+    background-repeat: repeat;
+}
+
+.main__img {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 2rem;
+    display: block;
+    border: $border;
+}
+
+.img-g img {
+    border: $border;
+    box-shadow: 0 0 10px #4ad295;
+}
+
+.titulo {
+    background-color: map-get($colores, "color-op");
+}
+
+.parrafo {
+    background-color: map-get($colores, "color-op");
+}
+
+/* active */
+
+.active {
+    border-bottom: $border-active;
+    border-top: $border-active ;
+}
+
+/* footer */
+
+.color-2 {
+    color: map-get($colores, "color-primary");
+}
+
+
+/* botones generales */
+.btn {
+    background-color: map-get($colores, "color-primary");
+    transition: 1s;
+
+    &:hover {
+        background-color: map-get($colores, "color-primary");
+        box-shadow: 0 0 10px #4ad295, 0 0 40px #4ad295, 0 0 80px #4ad295;
+        color: map-get($colores, "color-hover");
+
+    }
+}
+
+.btn-close{
+    background-color: map-get($colores, "color-primary" );
+}
