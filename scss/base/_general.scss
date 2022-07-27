@@ -29,10 +29,7 @@
 
                 .nav-link {
                     color: map-get($colores, "color-link");
-                    /* border: $border; */
-                    border-radius: $b-radius;
                     font-size: 14px;
-                    /* margin: 10px; */
                     transition: 1s;
 
                     &:hover {
@@ -92,22 +89,4 @@
 
 .color-2 {
     color: map-get($colores, "color-primary");
-}
-
-
-/* botones generales */
-.btn {
-    background-color: map-get($colores, "color-primary");
-    transition: 1s;
-
-    &:hover {
-        background-color: map-get($colores, "color-primary");
-        box-shadow: 0 0 10px #4ad295, 0 0 40px #4ad295, 0 0 80px #4ad295;
-        color: map-get($colores, "color-hover");
-
-    }
-}
-
-.btn-close{
-    background-color: map-get($colores, "color-primary" );
 }

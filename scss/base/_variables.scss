@@ -10,3 +10,10 @@ $colores: (
     "color-hover":#000,
     "color-op":#4ad2955c,
 );
+
+/* mixins */
+
+@mixin footer-link ($brBottom, $textColor) {
+    border-bottom: $brBottom;
+    color: $textColor;
+}

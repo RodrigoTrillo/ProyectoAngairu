@@ -1,3 +1,4 @@
+/* mixins */
 * {
   margin: 0;
   padding: 0; }
@@ -19,10 +20,7 @@
     border-radius: 4px; }
   .navbar .container-fluid .collapse .navbar-nav .nav-link {
     color: #fff;
-    /* border: $border; */
-    border-radius: 4px;
     font-size: 14px;
-    /* margin: 10px; */
     transition: 1s; }
     .navbar .container-fluid .collapse .navbar-nav .nav-link:hover {
       border-bottom: #1eff00;
@@ -66,18 +64,6 @@
 .color-2 {
   color: #4ad295; }
 
-/* botones generales */
-.btn {
-  background-color: #4ad295;
-  transition: 1s; }
-  .btn:hover {
-    background-color: #4ad295;
-    box-shadow: 0 0 10px #4ad295, 0 0 40px #4ad295, 0 0 80px #4ad295;
-    color: #000; }
-
-.btn-close {
-  background-color: #4ad295; }
-
 .form-r {
   border: 2px solid #4ad295;
   width: 70%;
@@ -109,3 +95,19 @@
   .card .card-body h5 {
     border-bottom: 2px solid #4ad295;
     width: fit-content; }
+
+.btn, .btn-2, .btn-close {
+  background-color: #4ad295; }
+
+.btn, .btn-2, .btn-close {
+  background-color: #4ad295; }
+
+.btn {
+  transition: 1s; }
+
+.btn-2:hover {
+  box-shadow: 0 0 10px #4ad295, 0 0 40px #4ad295, 0 0 80px #4ad295;
+  color: #fff; }
+
+.btn-close {
+  color: #fff; }

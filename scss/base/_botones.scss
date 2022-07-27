@@ -1,0 +1,19 @@
+@import "./extends";
+
+.btn{
+    @extend %boton;
+    transition: 1s;
+}
+
+.btn-2{
+    @extend %boton;
+    &:hover{
+        box-shadow: 0 0 10px #4ad295, 0 0 40px #4ad295, 0 0 80px #4ad295;
+        color: map-get($colores, "color-link");
+    }
+}
+
+.btn-close{
+    @extend %boton;
+    color: map-get($colores, "color-link" );
+}
