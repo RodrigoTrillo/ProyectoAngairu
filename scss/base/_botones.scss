@@ -1,19 +1,21 @@
 @import "./extends";
 
-.btn{
-    @extend %boton;
-    transition: 1s;
-}
-
-.btn-2{
-    @extend %boton;
-    &:hover{
-        box-shadow: 0 0 10px #4ad295, 0 0 40px #4ad295, 0 0 80px #4ad295;
-        color: map-get($colores, "color-link");
-    }
-}
-
 .btn-close{
     @extend %boton;
     color: map-get($colores, "color-link" );
+}
+
+.button{
+    @extend %boton;
+    @include botones ($b-radius,#000,1s)
+}
+
+.button-sec{
+    @extend %boton;
+    @include botones (2px,#fff,.5s)
+}
+
+.button-tri{
+    @extend %boton;
+    @include botones (10px,#000000,.5s)
 }

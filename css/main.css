@@ -1,4 +1,15 @@
-/* mixins */
+/* extends */
+.btn-close, .button, .button-sec, .button-tri {
+  background-color: #4ad295;
+  border: 2px solid #4ad295;
+  padding: 8px;
+  text-decoration: none; }
+
+.text-main, .text-sec {
+  text-align: center;
+  font-weight: bold; }
+
+/* mixin */
 * {
   margin: 0;
   padding: 0; }
@@ -64,6 +75,15 @@
 .color-2 {
   color: #4ad295; }
 
+/* texto main */
+.text-main {
+  font-size: 50px;
+  font-family: "Roboto"; }
+
+.text-sec {
+  font-size: 26px;
+  font-family: "Poppins"; }
+
 .form-r {
   border: 2px solid #4ad295;
   width: 70%;
@@ -75,39 +95,62 @@
   .form-r select {
     border: 2px solid #4ad295; }
 
-/* .form-r{
-    border: #4ad295 1px solid;
-    width: 70%;
-    display: flex;
-    margin: 0 auto 60px;
-    
-}
-
-.form-r input{
-    border: #4ad295 2px solid;
-}
-
-.form-r select{
-    border: #4ad295 2px solid;
-} */
 .card {
   border: 2px solid #4ad295; }
   .card .card-body h5 {
     border-bottom: 2px solid #4ad295;
     width: fit-content; }
 
-.btn, .btn-2, .btn-close {
-  background-color: #4ad295; }
+/* extends */
+.btn-close, .button, .button-sec, .button-tri {
+  background-color: #4ad295;
+  border: 2px solid #4ad295;
+  padding: 8px;
+  text-decoration: none; }
 
-.btn, .btn-2, .btn-close {
-  background-color: #4ad295; }
+.text-main, .text-sec {
+  text-align: center;
+  font-weight: bold; }
 
-.btn {
-  transition: 1s; }
+/* mixin */
+/* extends */
+.btn-close, .button, .button-sec, .button-tri {
+  background-color: #4ad295;
+  border: 2px solid #4ad295;
+  padding: 8px;
+  text-decoration: none; }
 
-.btn-2:hover {
-  box-shadow: 0 0 10px #4ad295, 0 0 40px #4ad295, 0 0 80px #4ad295;
-  color: #fff; }
+.text-main, .text-sec {
+  text-align: center;
+  font-weight: bold; }
 
+/* mixin */
 .btn-close {
   color: #fff; }
+
+.button {
+  border-radius: 4px;
+  color: #000;
+  transition: 1s; }
+  .button:hover {
+    color: #fff;
+    box-shadow: 0 0 10px #4ad295, 0 0 40px #4ad295;
+    border: 1px #000 solid; }
+
+.button-sec {
+  border-radius: 2px;
+  color: #fff;
+  transition: 0.5s; }
+  .button-sec:hover {
+    color: #fff;
+    box-shadow: 0 0 10px #4ad295, 0 0 40px #4ad295;
+    border: 1px #000 solid; }
+
+.button-tri {
+  border-radius: 10px;
+  color: #000000;
+  transition: 0.5s; }
+  .button-tri:hover {
+    color: #fff;
+    box-shadow: 0 0 10px #4ad295, 0 0 40px #4ad295;
+    border: 1px #000 solid; }
