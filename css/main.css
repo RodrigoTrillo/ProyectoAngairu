@@ -42,7 +42,7 @@
 
 /* main */
 .main {
-  background-image: url(../../imagenes/ladrillos.jpg);
+  background-image: url(../imagenes/ladrillos.jpg);
   width: 90%;
   display: flex;
   margin: 0 auto 60px;
