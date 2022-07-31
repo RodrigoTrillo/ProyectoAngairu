@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<<<<<<< HEAD
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="stylesheet" href="../styles.css">
     <title>Document</title>
@@ -68,49 +69,171 @@
                     </form>
                 </div>
             </div>
+=======
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <script src="https://kit.fontawesome.com/565b566085.js" crossorigin="anonymous"></script>
+    <!-- seo -->
+    <meta name="keywords"
+        content="comida, restaurante,reserva, empanada, empanadas, sandwich, pizza, hamburguesa, resto, bar, carta, comida con amigos, amigos, mesa, comensal, angairu, carne, parrila, asadon, cena, almuerzo, menu, desayuno, merienda tentempie, celebraciones, servicio, american, zeta, veggie, argenta, rucula, jamon, capresse, morrones, cordoba">
+    <meta name="description"
+        content="Angairu-Reservas En Angairu ponemos a disposición de nuestros clientes un amplio abanico de servicios.
+        Nuestro restaurante les ofrece una variada carta de platos recién elaborados con materias primas de calidad, menú diario, abundantes desayunos, meriendas, y cenas para todos los gustos. Y para celebraciones, les proponemos una completa relación de menús">
+    <title>Angairu-Reservas</title>
+</head>
+
+<body class="bg-dark">
+    <header class="header grid__cont bg-dark">
+        <nav class="navbar navbar-expand-lg bg-dark bg-gradient">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html">Angairu</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./Nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Reserva</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./Carta.html">Carta</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./Galeria.html">Galeria</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./Contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section class="grid__cont bg-dark">
+        <div>
+            <h1 class="text-center fw-bold text-cont">Reservas</h1>
+        </div>
+        <form class="row g-3 form-r rounded-top">
+            <div class="col-md-6">
+                <label for="nombre" class="form-label text-white">Nombre Completo</label>
+                <input type="text" class="form-control" id="nombre">
+            </div>
+            <div class="col-md-6">
+                <label for="comensales" class="form-label text-white">Cantidad de comensales</label>
+                <input type="number" class="form-control" id="comensales">
+            </div>
+            <div class="col-md-6">
+                <label for="inputTel" class="form-label text-white">Numero de telefono</label>
+                <input type="text" class="form-control" id="inputTel">
+            </div>
+            <div class="col-md-4">
+                <label for="inputLugar" class="form-label text-white">Lugar</label>
+                <select id="inputLugar" class="form-select">
+                    <option selected>Selecciona el lugar</option>
+                    <option>Salon</option>
+                    <option>Terraza</option>
+                    <option>Patio</option>
+                </select>
+            </div>
+            <div class="col-3 d-grid mx-auto mb-3">
+                <!-- Button trigger modal -->
+                <button type="button" class="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Enviar
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Reserva</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                Tu reserva a sido enviada con exito!!!
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="button" data-bs-dismiss="modal">Close</button>
+                                <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--  <button type="submit" class="button" >Enviar</button> -->
+            </div>
+        </form>
+>>>>>>> sass
     </section>
-    <footer>
-        <div class="cont__foot">
-            <div class="column1">
-                <h3>Mas informacion</h3>
-                <p>Esta compania se dedica a la producion y venta de productos alimenticios</p>
+    <!-- footer -->
+    <footer class="container-fluid border-top">
+        <div class="row p-5 bg-dark text-white ">
+            <div class=" col-xs-12 col-md-6 col-lg-3">
+                <p class="h3">Mas informacion</p>
+                <p class="color-2">Esta compania se dedica a la produccion y venta de productos alimenticios</p>
             </div>
-            <div class="column2">
-                <h3>Redes sociales</h3>
-                <div class="row">
-                    <i class="fa-brands fa-facebook"></i>
-                    <a href="https://www.facebook.com" target="_blank"><label>Nuestro Facebook</label></a>
+            <div class=" col-xs-12 col-md-6 col-lg-3">
+                <p class="h5 mb-3">Redes sociales</p>
+                <div class="mb-2">
+                    <i class="bi bi-instagram"></i>
+                    <a href="https://www.instagram.com" target="_blank"
+                        class="text-decoration-none mx-1 color-2">Instagram</a>
                 </div>
-                <div class="row">
-                    <i class="fa-brands fa-instagram"></i>
-                    <a href="https://www.instagram.com" target="_blank"><label>Nuestro Instagram</label></a>
+                <div class="mb-2">
+                    <i class="bi bi-facebook"></i>
+                    <a href="https://www.facebook.com" target="_blank"
+                        class="text-decoration-none mx-1 color-2">Facebook</a>
                 </div>
-                <div class="row">
-                    <i class="fa-brands fa-whatsapp"></i>
-                    <a href="#"><label>Nuestro Whatsapp</label></a>
+                <div class="mb-2">
+                    <i class="bi bi-whatsapp"></i>
+                    <a href="https://wa.link/xp3asi" target="_blank"  class="text-decoration-none mx-1 color-2">Whatsapp</a>
                 </div>
             </div>
-            <div class="column3">
-                <h3>Informacion de Contacto</h3>
-                <div class="row2">
-                    <i class="fa-solid fa-location-dot"></i>
-                    <label>Direccion</label>
-                    <p>Felix Frias 234</p>
-                    <p>Bº Gral Paz</p>
-                </div>
-                <div class="row2">
-                    <i class="fa-solid fa-mobile-screen"></i>
-                    <label>telefono</label>
-                    <p>(+54)351-80347344</p>
-                </div>
-                <div class="row2">
-                    <i class="fa-solid fa-envelope-circle-check"></i>
-                    <label>email</label>
-                    <p>rollyt1232@gmail.com</p>
+            <div class=" col-xs-12 col-md-6 col-lg-3">
+                <p class="h5">Informacion de Contacto</p>
+                <p>Direccion</p>
+                <p class="color-2">Felix Frias 234</p>
+                <p class="color-2">Bº Gral Paz</p>
+                <span></span>
+                <p>Telefono</p>
+                <p class="color-2">(+54)351-8034733</p>
+                <span></span>
+                <p>Email</p>
+                <p class="color-2">rollyt1232@gmail.com</p>
+            </div>
+            <div class=" col-xs-12 col-md-6 col-lg-3">
+                <p class="h5">Links</p>
+                <div class="cont-link">
+                    <a href="../index.html" class="text-decoration-none mx-1 color-2">Inicio</a>
+                    <a href="./Nosotros.html" class="text-decoration-none mx-1 color-2">Nosotros</a>
+                    <a href="#" class="text-decoration-none mx-1 color-2 active">Reserva</a>
+                    <a href="./Carta.html" class="text-decoration-none mx-1 color-2">Carta</a>
+                    <a href="./Galeria.html" class="text-decoration-none mx-1 color-2">Galeria</a>
+                    <a href="./Contacto.html" class="text-decoration-none mx-1 color-2">Contacto</a>
+                    <a href="./menu/harmburgesas.html" class="text-decoration-none mx-1 color-2">Hamburguesas</a>
+                    <a href="./menu/pizza.html" class="text-decoration-none mx-1 color-2">Pizzas</a>
+                    <a href="./menu/sandwiches.html" class="text-decoration-none mx-1 color-2">Sanwiches</a>
+                    <a href="./menu/empanadas.html" class="text-decoration-none mx-1 color-2">Empanadas</a>
                 </div>
             </div>
         </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+        integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

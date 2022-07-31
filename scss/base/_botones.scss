@@ -1,0 +1,21 @@
+@import "./extends";
+
+.btn-close{
+    @extend %boton;
+    color: map-get($colores, "color-link" );
+}
+
+.button{
+    @extend %boton;
+    @include botones ($b-radius,#000,1s)
+}
+
+.button-sec{
+    @extend %boton;
+    @include botones (2px,#fff,.5s)
+}
+
+.button-tri{
+    @extend %boton;
+    @include botones (10px,#000000,.5s)
+}

@@ -1,0 +1,34 @@
+/* extends */
+%boton{
+    background-color: map-get($colores, "color-primary");
+    border: $border;
+    padding: 8px;
+    text-decoration: none;
+}
+
+%textos{
+    text-align: center;
+    font-weight: bold;
+}
+
+%precios{
+    font-weight: bold;
+    color: map-get($colores, "color-primary" );
+}
+/* mixin */
+
+@mixin botones ($bRadio, $textColor, $trans) {
+    border-radius: $bRadio;
+    color: $textColor;
+    transition: $trans;
+    &:hover{
+        color: map-get($colores, "color-link" );
+        box-shadow: 0 0 10px #4ad295, 0 0 40px #4ad295 ;
+        border: 1px #000 solid;
+    }
+}
+
+@mixin textos ($fontSize, $fontFamily){
+    font-size: $fontSize;
+    font-family: $fontFamily;
+}

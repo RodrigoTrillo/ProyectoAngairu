@@ -1,0 +1,50 @@
+keyword: agrege las keywords:----comida, restaurante,reserva, empanada, empanadas, sandwich, pizza, hamburguesa, resto, bar, carta, comida con amigos, amigos, mesa, comensal, angairu, carne, parrila, asadon, cena, almuerzo, menu, desayuno, merienda tentempie, celebraciones, servicio, american, zeta, veggie, argenta, rucula, jamon, capresse, morrones, cordoba
+
+description: agrege las description:----
+
+index: description = content="Angairu es un restaurante que desde hace años es una tradición. Es hoy máximo exponente de carnes a la parrilla y del auténtico asado argentino."
+       <title>Restaurante-Angairu</title>
+
+Reservas: <meta name="description"
+        content="Angairu-Reservas En Angairu ponemos a disposición de nuestros clientes un amplio abanico de servicios.
+        Nuestro restaurante les ofrece una variada carta de platos recién elaborados con materias primas de calidad, menú diario, abundantes desayunos, meriendas, y cenas para todos los gustos. Y para celebraciones, les proponemos una completa relación de menús">
+    <title>Angairu-Reservas</title>
+
+Nosotos: <meta name="description"
+        content="Angairu-Nosotros En Angairu ponemos a disposición de nuestros clientes un amplio abanico de servicios.
+        Nuestro restaurante les ofrece una variada carta de platos recién elaborados con materias primas de calidad, menú diario, abundantes desayunos, meriendas, y cenas para todos los gustos. Y para celebraciones, les proponemos una completa relación de menús">
+    <title>Angairu-Nosotros</title>
+
+Galeria: <meta name="description"
+        content="Angairu-Galeria En Angairu tenemos un espacio acogedor y diseñado para su comodidad en el cual despachamos y servimos su comida y bebida a eleccion, en esta seccion dejamos a su disposición alguna fotos del lugar e instalaciones">
+    <title>Angairu-Galeria</title>
+
+Contacto: <meta name="description"
+        content="Angairu-Contacto En Angairu ponemos a disposición de nuestros clientes un amplio abanico de servicios.
+        Nuestro restaurante les ofrece una variada carta de platos recién elaborados con materias primas de calidad, menú diario, abundantes desayunos, meriendas, y cenas para todos los gustos. Y para celebraciones, les proponemos una completa relación de menús">
+    <title>Angairu-Contacto</title>
+
+Carta: <meta name="description"
+    content="Angairu-Carta En Angairu ponemos a disposición de nuestros clientes un amplio abanico de servicios.
+        Nuestro restaurante les ofrece una variada carta de platos recién elaborados con materias primas de calidad, menú diario, abundantes desayunos, meriendas, y cenas para todos los gustos. Y para celebraciones, les proponemos una completa relación de menús">
+  <title>Angairu-Carta</title>
+
+Sandwiches: <meta name="description"
+    content="Angairu-Sandwiches En Angairu ponemos a disposición de nuestros clientes un amplio abanico de servicios.
+        Nuestro restaurante les ofrece una variada carta de platos recién elaborados con materias primas de calidad, menú diario, abundantes desayunos, meriendas, y cenas para todos los gustos. Y para celebraciones, les proponemos una completa relación de menús">
+  <title>Angairu-Sandwiches</title>
+
+Pizza:  <meta name="description"
+    content="Angairu-Pizzas En Angairu ponemos a disposición de nuestros clientes un amplio abanico de servicios.
+        Nuestro restaurante les ofrece una variada carta de platos recién elaborados con materias primas de calidad, menú diario, abundantes desayunos, meriendas, y cenas para todos los gustos. Y para celebraciones, les proponemos una completa relación de menús">
+  <title>Angairu-Pizzas</title>
+
+Hamburguesa: <meta name="description"
+    content="Angairu-Hamburguesas En Angairu ponemos a disposición de nuestros clientes un amplio abanico de servicios.
+        Nuestro restaurante les ofrece una variada carta de platos recién elaborados con materias primas de calidad, menú diario, abundantes desayunos, meriendas, y cenas para todos los gustos. Y para celebraciones, les proponemos una completa relación de menús">
+  <title>Angairu-Hamburguesas</title>
+
+Empanadas: <meta name="description"
+    content="Angairu-Empanadas En Angairu ponemos a disposición de nuestros clientes un amplio abanico de servicios.
+        Nuestro restaurante les ofrece una variada carta de platos recién elaborados con materias primas de calidad, menú diario, abundantes desayunos, meriendas, y cenas para todos los gustos. Y para celebraciones, les proponemos una completa relación de menús">
+  <title>Angairu-Empanadas</title>
