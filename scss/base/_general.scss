@@ -84,6 +84,7 @@
 .active {
     border-bottom: $border-active;
     border-top: $border-active ;
+    width: fit-content;
 }
 
 /* footer */
@@ -92,6 +93,13 @@
     color: map-get($colores, "color-primary");
 }
 
+.cont-link{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+
+    
+}
 
 /* texto main */
 
@@ -104,3 +112,6 @@
     @include textos (26px, 'Poppins')
 }
 
+.price{
+    @extend %precios;
+}

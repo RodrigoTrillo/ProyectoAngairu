@@ -10,6 +10,11 @@
     text-align: center;
     font-weight: bold;
 }
+
+%precios{
+    font-weight: bold;
+    color: map-get($colores, "color-primary" );
+}
 /* mixin */
 
 @mixin botones ($bRadio, $textColor, $trans) {
