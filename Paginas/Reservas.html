@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<<<<<<< HEAD
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
@@ -108,6 +109,71 @@
                 <!--  <button type="submit" class="button" >Enviar</button> -->
             </div>
         </form>
+=======
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="../styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="header">
+        <!-- logo nav -->
+        <div class="logo__header">
+            <a href="../index.html"><img src="../imagenes/barandgrill.jpg" alt=""></a>
+        </div>
+        <!--  barra de nav -->
+        <div class="nav__menu">
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn"><i class="menu__icon"><img
+                        src="../imagenes/png-transparent-hamburger-button-menu-brunch-menu-angle-material-share-icon.png"
+                        alt=""></i></label>
+            <ul class="list">
+                <li class="list__item"><a href="../index.html">Inicio</a></li>
+                <li class="list__item"><a href="./Nosotros.html">Nosotros</a></li>
+                <li class="list__item"><a href="#">Reserva</a></li>
+                <li class="list__item"><a href="./Carta.html">Carta</a></li>
+                <li class="list__item"><a href="./Galeria.html">Galeria</a></li>
+                <li class="list__item"><a href="./Contacto.html">Contacto</a></li>
+            </ul>
+        </div>
+    </header>
+    <section>
+        <div class="cont-reserva">
+            <div class="reserva-wrap">
+                <div class="reserva-form animate__animated animate__zoomIn">
+                    <h3>Haz tu reserva</h3>
+                    <form action="">
+                        <p>
+                            <label>Nombre Completo</label>
+                            <input type="text" name="fullname" id="fullname">
+                        </p>
+                        <p>
+                            <label>Telefono</label>
+                            <input type="tel" name="phone">
+                        </p>
+                        <p>
+                            <label>Cantidad de comensales</label>
+                            <input type="number" name="number">
+                        </p>
+                        <p>
+                            <label for="">Selecciona el lugar</label>
+                            <select name="lugar" id="lugar">
+                                <option value="">Salon</option>
+                                <option value="">Patio</option>
+                                <option value="">Terraza</option>
+                            </select>
+                        </p>
+                        <p class="block">
+                            <label>Fecha y Hora</label>
+                            <input type="datetime-local" name="fechayhora">
+                        </p>
+                        <p class="block">
+                            <button>Enviar</button>
+                        </p>
+                    </form>
+                </div>
+            </div>
+>>>>>>> 87358b162c9ce2b26d1b5bceb3b57052143dab8b
     </section>
     <!-- footer -->
     <footer class="container-fluid border-top">
