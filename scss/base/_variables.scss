@@ -1,7 +1,8 @@
 $center: 0 auto;
-$b-radius: 4px;
+$b-radius: 10px;
 $border: 2px solid #4ad295;
 $border-active: 1px solid #1eff00;
+$m-b10: 10px;
 
 $colores: (
     "color-primary": #4ad295,
@@ -9,4 +10,5 @@ $colores: (
     "color-link": #fff,
     "color-hover":#000,
     "color-op":#4ad2955c,
+    "color-dark":#212529,
 );

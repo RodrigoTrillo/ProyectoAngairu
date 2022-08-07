@@ -1,51 +1,57 @@
 @import "./extends";
+
 * {
     margin: 0;
     padding: 0;
 }
 
 /*  nav bar */
+body{
+    background-color: map-get($colores , "color-dark" );
+.header {
+    .navbar {
+        background-color: map-get($colores , "color-dark" );
+        .container-fluid {
+            .navbar-brand {
+                color: map-get($colores, "color-primary");
+                border-top: map-get($colores, "color-primary") 2px solid;
+                border-bottom: map-get($colores, "color-primary") 2px solid;
+            }
 
-.navbar {
-    .container-fluid {
-        .navbar-brand {
-            color: map-get($colores, "color-primary");
-            border-top: map-get($colores, "color-primary") 2px solid;
-            border-bottom: map-get($colores, "color-primary") 2px solid;
-        }
+            .navbar-toggler {
+                background-color: map-get($colores, "color-primary");
+            }
 
-        .navbar-toggler {
-            background-color: map-get($colores, "color-primary");
-        }
+            .collapse {
+                flex-grow: initial;
 
-        .collapse {
-            flex-grow: initial;
-
-            .navbar-nav {
-                li:last-child {
-                    background-color: map-get($colores, "color-primary");
-                    border: $border;
-                    border-radius: $b-radius;
-                }
-
-                .nav-link {
-                    color: map-get($colores, "color-link");
-                    font-size: 14px;
-                    transition: 1s;
-
-                    &:hover {
-                        border-bottom: map-get($colores, "color-secondary");
-                        background: map-get($colores, "color-primary");
+                .navbar-nav {
+                    li:last-child {
+                        background-color: map-get($colores, "color-primary");
+                        border: $border;
                         border-radius: $b-radius;
-                        box-shadow: 0 0 10px #4ad295, 0 0 40px #4ad295, 0 0 80px #4ad295;
-                        color: map-get($colores, "color-hover");
+                    }
+
+                    .nav-link {
+                        color: map-get($colores, "color-link");
+                        font-size: 14px;
+                        transition: 1s;
+
+                        &:hover {
+                            border-bottom: map-get($colores, "color-secondary");
+                            background: map-get($colores, "color-primary");
+                            border-radius: $b-radius;
+                            box-shadow: 0 0 10px #4ad295, 0 0 40px #4ad295, 0 0 80px #4ad295;
+                            color: map-get($colores, "color-hover");
+                        }
+
                     }
 
                 }
-
             }
         }
     }
+}
 }
 
 /* main */
@@ -55,7 +61,11 @@
     display: flex;
     margin: 0 auto 60px;
     border: 2px solid #4ad295;
+    border-radius: $b-radius;
     background-repeat: repeat;
+    div{
+        margin-bottom: $m-b10;
+    }
 }
 
 .main__img {
@@ -64,11 +74,18 @@
     margin-bottom: 2rem;
     display: block;
     border: $border;
+    border-radius: $b-radius;
+}
+
+img{
+border-radius: $b-radius ;
 }
 
 .img-g img {
     border: $border;
     box-shadow: 0 0 10px #4ad295;
+    margin-bottom: 25px;
+    width: 100%;
 }
 
 .titulo {
@@ -93,25 +110,108 @@
     color: map-get($colores, "color-primary");
 }
 
-.cont-link{
+.cont-link {
     display: flex;
     flex-direction: column;
     padding: 10px;
 
-    
+
 }
 
 /* texto main */
-
-.text-main{
-    @extend %textos;
-    @include textos (50px,'Roboto'); 
+a{
+    text-decoration: none;
+    margin: 5px;
 }
-.text-sec{
+
+footer{
+    border-top: 1px solid map-get($colores, "color-link" );
+    div{
+        padding: .5rem;
+        color:map-get($colores, "color-link" )
+    }
+    
+   
+}
+
+.text-main {
+    @extend %textos;
+    @include textos (50px, 'Roboto');
+}
+
+.text-sec {
     @extend %textos;
     @include textos (26px, 'Poppins')
 }
 
-.price{
+.price {
     @extend %precios;
 }
+
+
+@media screen and (max-width: 380px) {
+    .map {
+        width: 280px;
+    }
+
+}
+
+/* pag nosotros */
+
+.container-nos{
+    div{
+        color: map-get($colores, "color-link" );
+        text-align: center;
+        margin: 10px;
+    }
+    button{
+       display: grid;
+        margin: $center;
+        margin-bottom: 3rem;
+    }
+}
+.offcanvas{
+    background-color: map-get($colores,"color-dark" );
+}
+
+/*  pag galeria */
+
+.cont-img{
+    margin: 3rem;
+}
+
+/* pag contacto */
+
+.cont-title{
+    color: map-get($colores, "color-link" );
+    text-align: center;
+    margin-bottom: $m-b10;
+}
+
+.field{
+    margin-bottom: $m-b10;
+}
+
+/* pagina carta */
+
+.card{
+    background-color: map-get($colores
+    , "color-dark" );
+    color: map-get($colores
+    , "color-link" ) ;
+    margin-bottom: .5rem;
+    margin-right: .5rem;
+    max-width: 450px;
+}
+
+.cont-button{
+    display: block;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-left: -28px;
+}
+
+.img-fluid{
+    margin-top: 3rem;
+}
+
