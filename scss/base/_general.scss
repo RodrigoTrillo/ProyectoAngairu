@@ -90,10 +90,12 @@ border-radius: $b-radius ;
 
 .titulo {
     background-color: map-get($colores, "color-op");
+    color: map-get($colores, "color-dark");
 }
 
 .parrafo {
     background-color: map-get($colores, "color-op");
+    color: map-get($colores, "color-dark");
 }
 
 /* active */
@@ -118,7 +120,7 @@ border-radius: $b-radius ;
 
 }
 
-/* texto main */
+
 a{
     text-decoration: none;
     margin: 5px;
@@ -133,6 +135,7 @@ footer{
     
    
 }
+/* texto main */
 
 .text-main {
     @extend %textos;

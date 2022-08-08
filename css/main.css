@@ -20,9 +20,9 @@
 
 /*  nav bar */
 body {
-  background-color: #212529; }
+  background-color: #000000; }
   body .header .navbar {
-    background-color: #212529; }
+    background-color: #000000; }
     body .header .navbar .container-fluid .navbar-brand {
       color: #4ad295;
       border-top: #4ad295 2px solid;
@@ -76,10 +76,12 @@ img {
   width: 100%; }
 
 .titulo {
-  background-color: #4ad2955c; }
+  background-color: #4ad2955c;
+  color: #000000; }
 
 .parrafo {
-  background-color: #4ad2955c; }
+  background-color: #4ad2955c;
+  color: #000000; }
 
 /* active */
 .active {
@@ -96,7 +98,6 @@ img {
   flex-direction: column;
   padding: 10px; }
 
-/* texto main */
 a {
   text-decoration: none;
   margin: 5px; }
@@ -107,6 +108,7 @@ footer {
     padding: .5rem;
     color: #fff; }
 
+/* texto main */
 .text-main {
   font-size: 50px;
   font-family: "Roboto"; }
@@ -131,7 +133,7 @@ footer {
   margin-bottom: 3rem; }
 
 .offcanvas {
-  background-color: #212529; }
+  background-color: #000000; }
 
 /*  pag galeria */
 .cont-img {
@@ -148,7 +150,7 @@ footer {
 
 /* pagina carta */
 .card {
-  background-color: #212529;
+  background-color: #000000;
   color: #fff;
   margin-bottom: .5rem;
   margin-right: .5rem;
