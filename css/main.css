@@ -157,13 +157,23 @@ footer {
   max-width: 450px; }
 
 .cont-button {
-  display: block;
-  margin-bottom: 20px;
-  margin-top: 10px;
-  margin-left: -28px; }
+  display: flex;
+  justify-content: center; }
 
 .img-fluid {
   margin-top: 3rem; }
+
+/* pag carta */
+.cont-center {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.card-body {
+  height: 280px; }
+
+label {
+  color: #4ad295; }
 
 .form-r {
   border: 2px solid #4ad295;
