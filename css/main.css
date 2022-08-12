@@ -163,6 +163,10 @@ footer {
 .img-fluid {
   margin-top: 3rem; }
 
+@media screen and (max-width: 460px) {
+  .card {
+    width: 300px; } }
+
 /* pag carta */
 .cont-center {
   display: flex;
